@@ -42,3 +42,19 @@ body::before {
     padding-left: 12px;
 }
 .home-quote a { font-style: normal; box-shadow: 0 1px 0 var(--plum); }
+
+/* Figures and videos in research posts. */
+.post-content figure { margin: 24px 0; }
+.post-content figure img,
+.video-figure video { width: 100%; height: auto; border-radius: 6px; display: block; margin: 0 auto; }
+.video-figure.portrait video { max-width: 340px; }
+.post-content figcaption,
+.post-content figure figcaption p {
+    font-size: 14px;
+    color: var(--secondary);
+    text-align: center;
+    margin-top: 6px;
+}
+.photo-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.photo-row figure { flex: 1 1 220px; margin: 12px 0; }
+.photo-row img { aspect-ratio: 3 / 4; object-fit: cover; }
