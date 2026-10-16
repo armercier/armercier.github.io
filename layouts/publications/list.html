@@ -11,7 +11,7 @@
 {{- $groups := slice
   (dict "key" "journal"  "title" "Peer-reviewed journal articles")
   (dict "key" "workshop" "title" "Conference and workshop papers")
-  (dict "key" "preprint" "title" "Preprints") }}
+  (dict "key" "preprint" "title" "Preprints under review") }}
 
 {{- range $groups }}
 {{- $pages := where $.RegularPages "Params.pubtype" .key }}

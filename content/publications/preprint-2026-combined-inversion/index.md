@@ -2,7 +2,7 @@
 title: "Combined Inversion of Active and Passive Seismic Data Based on Optimized Data Selection"
 date: 2026-07-30
 pubtype: preprint
-venue: "Research Square preprint (2026)"
+venue: "Research Square preprint (2026), under review"
 tags: ["seismic tomography","data selection","QR factorization","passive seismic","joint inversion"]
 author: ["Kathrin Behnen","Hansruedi Maurer","Arnaud Mercier","Marian Hertrich","Domenico Giardini"]
 description: "Joint tomography of active and passive seismic data at the BedrettoLab using QR-based optimised selection of passive events. Research Square preprint, 2026."

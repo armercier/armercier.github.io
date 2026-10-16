@@ -58,3 +58,4 @@ body::before {
 .photo-row { display: flex; gap: 12px; flex-wrap: wrap; }
 .photo-row figure { flex: 1 1 220px; margin: 12px 0; }
 .photo-row img { aspect-ratio: 3 / 4; object-fit: cover; }
+.photo-row figcaption { font-weight: normal; font-size: 14px; color: var(--secondary); text-align: center; }

@@ -14,6 +14,12 @@ Before working on inversion, I worked on the instruments that collect the data. 
 
 {{< figure src="hardware.jpg" caption="Sensor module with three orthogonal accelerometers, the acquisition board (24-bit ADC, microcontroller, communication) and the power supply. The whole shuttle fits in a 40 mm tube. From Mercier, Dupuis & Giroux (2023), *Journal of Open Hardware*, CC BY 4.0." >}}
 
+<div class="photo-row">
+<figure><img src="test-station.jpg" alt="Field acquisition station with seismograph, rugged laptop, battery and generator on a lawn"><figcaption>Acquisition station for a field test.</figcaption></figure>
+<figure><img src="test-layout.jpg" alt="Measuring sensor positions with a tape on a campus lawn"><figcaption>Laying out and measuring sensor positions.</figcaption></figure>
+<figure><img src="test-shuttles.jpg" alt="Prototype shuttles in aluminium housings and 3D-printed mounts on the grass"><figcaption>Prototype shuttles and 3D-printed mounts laid out for a surface test.</figcaption></figure>
+</div>
+
 I designed the printed circuit boards, wrote the firmware and acquisition libraries, built test benches for the sensors, and processed the field data from the first validation surveys. Everything (hardware, firmware and documentation) is released openly, so that other groups can build, adapt and improve the instrument.
 
 This experience still shapes my research: knowing how data are physically recorded makes it much easier to reason about which data are worth recording.
