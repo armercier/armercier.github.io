@@ -32,3 +32,13 @@ body::before {
     border-bottom: 2px solid var(--lightcolor);
 }
 .pub-section:first-of-type { margin-top: 8px; }
+
+/* Epigraph on the homepage. */
+.home-quote {
+    display: block;
+    font-style: italic;
+    color: var(--plum);
+    border-left: 3px solid var(--lightcolor);
+    padding-left: 12px;
+}
+.home-quote a { font-style: normal; box-shadow: 0 1px 0 var(--plum); }
