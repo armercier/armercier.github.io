@@ -82,14 +82,14 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:arnaud.mercier@eaps.ethz.ch
-        - name: Location
-          url: contact/
+        - name: ETH
+          url: https://mge.ethz.ch/people/person-detail.MzE1ODQx.TGlzdC8yMjM1LDc1MjQzMzcwOQ==.html
         - name: Google Scholar
-          url: https://scholar.google.com/   # TODO: your profile URL
+          url: https://scholar.google.com/citations?user=CKCjqNEAAAAJ&hl=en
         - name: GitHub
-          url: https://github.com/   # TODO: your profile URL
+          url: https://github.com/armercier
         - name: GitLab
-          url: https://gitlab.com/   # TODO: MODJO / profile URL
+          url: https://gitlab.com/armercier
 
     assets:
         disableScrollBarStyle: true

@@ -1,26 +1,27 @@
 ---
-title: "Open hardware: Geophysical instrumentation for collaborations in a changing world"
-date: 2022-08-28   # TODO: confirm date
+title: "Open Hardware: Geophysical Instrumentation for Collaborations in a Changing World"
+date: 2022-08-28
 tags: ["open hardware","instrumentation"]
 author: ["Arnaud Mercier"]
-description: "Open hardware: Geophysical instrumentation for collaborations in a changing world. IMAGE, Houston · Oral presentation."
-summary: "IMAGE, Houston · Oral presentation"
+description: "Open Hardware: Geophysical Instrumentation for Collaborations in a Changing World. IMAGE 2022 (SEG/AAPG), Houston · Oral presentation."
+summary: "IMAGE 2022 (SEG/AAPG), Houston · Oral presentation"
 ---
 
 ---
 
 ##### Event
 
-IMAGE, Houston · Oral presentation
+IMAGE 2022 (SEG/AAPG), Houston · Oral presentation
 
 ---
 
-##### Abstract
+##### About the talk
 
-[PLACEHOLDER: talk abstract.]
+The case for open hardware in geophysical instrumentation, illustrated by the Geophysical Open Seismic Hardware borehole instrument.
 
 ---
 
-##### Material
+##### Links
 
-+ [PLACEHOLDER: Slides](slides.pdf)
++ [Expanded abstract (SEG proceedings, pp. 3111–3115)](https://pubs.geoscienceworld.org/segeab/proceedings-abstract/SEGEAB.41/1/3111/717246)
++ Co-authors: J. Christian Dupuis, Bernard Giroux

@@ -1,4 +1,4 @@
 ---
 title: "Talks"
-description: "Conference presentations and invited talks by Arnaud Mercier."
+description: "Conference presentations by Arnaud Mercier."
 ---

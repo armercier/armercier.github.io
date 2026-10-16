@@ -22,3 +22,13 @@ body::before {
 .button:hover {
     background: var(--lightcolor);
 }
+
+/* Section headings on the publications list. */
+.pub-section {
+    font-size: 20px;
+    color: var(--night);
+    margin: 36px 0 14px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--lightcolor);
+}
+.pub-section:first-of-type { margin-top: 8px; }

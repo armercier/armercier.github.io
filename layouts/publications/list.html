@@ -1,0 +1,30 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{- if .Content }}
+<div class="post-content">{{ .Content }}</div>
+{{- end }}
+
+{{- /* Group publications into sections by the `pubtype` front-matter key, in this order. */}}
+{{- $groups := slice
+  (dict "key" "journal"  "title" "Peer-reviewed journal articles")
+  (dict "key" "workshop" "title" "Conference and workshop papers")
+  (dict "key" "preprint" "title" "Preprints") }}
+
+{{- range $groups }}
+{{- $pages := where $.RegularPages "Params.pubtype" .key }}
+{{- if $pages }}
+<h2 class="pub-section">{{ .title }}</h2>
+{{- range $pages.ByDate.Reverse }}
+<article class="post-entry">
+  <header class="entry-header"><h2 class="entry-hint-parent">{{ .Title }}</h2></header>
+  {{- with .Params.venue }}<div class="entry-content"><p><em>{{ . }}</em></p></div>{{ end }}
+  <footer class="entry-footer">{{ partial "post_meta.html" . }}</footer>
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+{{- end }}
+{{- end }}
+{{- end }}
