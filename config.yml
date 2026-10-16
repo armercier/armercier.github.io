@@ -1,0 +1,114 @@
+baseURL: "https://USERNAME.github.io/"   # TODO: set to your GitHub Pages URL or custom domain
+title: Arnaud Mercier
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Research
+          url: research/
+          weight: 1
+        - name: Publications
+          url: publications/
+          weight: 2
+        - name: Talks
+          url: talks/
+          weight: 3
+        - name: Software
+          url: software/
+          weight: 4
+        - name: Teaching
+          url: teaching/
+          weight: 5
+        - name: CV
+          url: cv.pdf
+          weight: 6
+
+params:
+    description: "Arnaud Mercier, PhD researcher in computational geophysics at ETH Zurich: full-waveform inversion, experimental design and data selection."
+    author: Arnaud Mercier
+    # googleAnalyticsID: G-XXXXX
+    DateFormat: January 2006
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: [publications, talks, software, teaching]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Arnaud Mercier
+          subtitle: "I am a doctoral researcher in Mathematical Geophysics at ETH Zurich, supervised by Prof. Hansruedi Maurer and Dr. Christian Boehm. I work on full-waveform inversion, experimental design and data selection for efficient and robust geophysical inverse problems, combining differentiable physics, scientific software and field acquisition. <br><br>**[PLACEHOLDER: job-market status, e.g. \"I am looking for postdoctoral positions starting in 2027.\"]**"
+          imageUrl: picture.jpeg
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Arnaud Mercier
+          buttons:
+            - name: Research
+              url: research/
+            - name: Publications
+              url: publications/
+            - name: Talks
+              url: talks/
+            - name: Software
+              url: software/
+            - name: Teaching
+              url: teaching/
+            - name: Curriculum vitae
+              url: cv.pdf
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:arnaud.mercier@eaps.ethz.ch
+        - name: Location
+          url: contact/
+        - name: Google Scholar
+          url: https://scholar.google.com/   # TODO: your profile URL
+        - name: GitHub
+          url: https://github.com/   # TODO: your profile URL
+        - name: GitLab
+          url: https://gitlab.com/   # TODO: MODJO / profile URL
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: Arnaud Mercier
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

@@ -1,0 +1,24 @@
+/* Thin dusk band at the very top of every page, echoing the landscape photo. */
+body::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background: linear-gradient(90deg, var(--sky), var(--mauve) 45%, var(--plum) 70%, var(--night));
+}
+
+/* Portrait: soft dusk ring instead of a gray border. */
+.profile img {
+    border: 3px solid var(--lightcolor);
+    box-shadow: 0 0 0 1px var(--plum);
+}
+
+/* Headings in the night-blue tone; buttons tinted with the sky. */
+.post-content h2, .post-content h3, .post-content h4, .post-content h5 {
+    color: var(--night);
+}
+.button {
+    background: #ece7f1;
+}
+.button:hover {
+    background: var(--lightcolor);
+}
