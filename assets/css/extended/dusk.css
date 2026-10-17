@@ -41,7 +41,6 @@ body::before {
     border-left: 3px solid var(--lightcolor);
     padding-left: 12px;
 }
-.home-quote a { font-style: normal; box-shadow: 0 1px 0 var(--plum); }
 
 /* Figures and videos in research posts. */
 .post-content figure { margin: 24px 0; }

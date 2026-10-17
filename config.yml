@@ -58,7 +58,7 @@ params:
     profileMode:
           enabled: true
           title: Arnaud Mercier
-          subtitle: "I am a doctoral researcher in Mathematical Geophysics at ETH Zurich, supervised by Prof. Hansruedi Maurer and Dr. Christian Boehm. I develop computational methods for efficient full-waveform inversion, with a focus on experimental design, data selection and differentiable wave simulation, from synthetic studies to field acquisition. <br><br><span class=\"home-quote\">“For now, what is important is not finding the answer, but looking for it.”<br>— Douglas R. Hofstadter, <a href=\"https://www.goodreads.com/work/quotes/850076\"><em>Gödel, Escher, Bach: An Eternal Golden Braid</em></a></span>"
+          subtitle: "I am a doctoral researcher in Mathematical Geophysics at ETH Zurich, supervised by Prof. Hansruedi Maurer and Dr. Christian Boehm. I develop computational methods for efficient full-waveform inversion, with a focus on experimental design, data selection and differentiable wave simulation, from synthetic studies to field acquisition. <br><br><span class=\"home-quote\">“For now, what is important is not finding the answer, but looking for it.”<br>— Douglas R. Hofstadter, <em>Gödel, Escher, Bach: An Eternal Golden Braid</em></span>"
           imageUrl: picture.jpeg
           imageWidth: 160
           imageHeight: 160
@@ -88,6 +88,8 @@ params:
           url: https://scholar.google.com/citations?user=CKCjqNEAAAAJ&hl=en
         - name: ResearchGate
           url: https://www.researchgate.net/profile/Arnaud-Mercier
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/arnaud-mercier-b001a0129/
         - name: GitHub
           url: https://github.com/armercier
         - name: GitLab
