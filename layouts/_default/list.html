@@ -50,7 +50,11 @@
 
 <article class="{{ $class }}">
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+  {{- with .Params.coverVideo }}
+  <figure class="entry-cover"><video autoplay loop muted playsinline preload="metadata" poster="{{ $page.Permalink }}{{ $page.Params.cover.image }}" style="width:100%;display:block"><source src="{{ $page.Permalink }}{{ . }}" type="video/mp4"></video></figure>
+  {{- else }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+  {{- end }}
   <header class="entry-header">
     <h2 class="entry-hint-parent">
       {{- .Title }}

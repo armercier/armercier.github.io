@@ -4,6 +4,7 @@ date: 2026-10-01
 weight: 3
 tags: ["full-waveform inversion","experimental design","differentiable physics","JAX"]
 summary: "A differentiable wave solver in JAX lets source and receiver positions be optimised by gradient descent through the full-waveform inversion itself."
+coverVideo: "sources.mp4"
 cover:
     image: "cover.jpg"
     alt: "Source positions moving during gradient-based optimisation, with the FWI loss decreasing"
